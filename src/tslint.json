@@ -4,7 +4,7 @@
         "directive-selector": [
             true,
             "attribute",
-            "app",
+            "ng",
             "camelCase"
         ],
         "component-selector": [

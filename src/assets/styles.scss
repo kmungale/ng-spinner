@@ -1,0 +1,99 @@
+
+.spinner-container {
+
+  position: absolute;
+  top:0;
+  height: 100%;
+  width: 100%;
+  background: #dddd;
+
+  .spinner-text {
+    position: relative;
+    margin-top: -47px;
+    z-index: 10000;
+    top: 50% !important;
+    text-align: center
+  }
+
+  .spinner-style {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    border-radius: 50%;
+  }
+
+  .default {
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+  }
+
+  .slow {
+    -webkit-animation: spin 2.5s linear infinite;
+    animation: spin 2.5s linear infinite;
+  }
+
+  .moderate {
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+  }
+
+  .fast {
+    -webkit-animation: spin 0.5s linear infinite;
+    animation: spin 0.5s linear infinite;
+  }
+
+  .sp-default {
+    margin-left:-35px;
+    margin-top: -35px; 
+    border: 10px solid #f3f3f3;
+    border-top: 10px solid #A9A9A9;
+    width: 70px;
+    height: 70px;
+  }
+
+  .sp-sm {
+    margin-left:-17px;
+    margin-top: -17px;
+    border: 7px solid #f3f3f3;
+    border-top: 7px solid #A9A9A9;
+    width: 40px;
+    height: 40px;
+  }
+
+  .sp-md {
+    margin-left:-40px;
+    margin-top: -40px;
+    border: 12px solid #f3f3f3;
+    border-top: 12px solid #A9A9A9;
+    width: 80px;
+    height: 80px;
+  }
+
+  .sp-lg {
+    margin-left:-60px;
+    margin-top: -60px;
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #A9A9A9;
+    width: 120px;
+    height: 120px;
+  }
+}
+
+.spinner-block-scroll {
+  overflow: hidden;
+}
+
+.spinner-blank {
+  display: none;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
