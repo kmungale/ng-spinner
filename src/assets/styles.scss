@@ -98,8 +98,16 @@
     100% { transform: rotate(360deg); }
 }
 
-.demo-div {
-  width: 300px; 
-  height: 300px; 
+.demo-container {
+  width: 500px; 
+  height: 500px; 
+  position: absolute;
+  display: block;
   border: 1px solid #ddd
+}
+
+.demo-child1 {
+  position: relative;
+  width: 300px;
+  height: 300px;
 }

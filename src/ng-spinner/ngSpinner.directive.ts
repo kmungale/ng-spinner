@@ -4,7 +4,7 @@ import { Directive, ElementRef, Input, Output, EventEmitter, OnInit } from '@ang
   selector: '[ngSpinner]'
 })
 export class SpinnerDirective  implements OnInit {
-  @Input() spText = 'loading';
+  @Input() spText = 'loading...';
   @Input() spSize = 'sp-default';
   @Input() spSpeed = 'default';
   @Input() showOnBody = false;
