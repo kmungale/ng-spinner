@@ -1,5 +1,5 @@
 {
-  "name": "ng-spinner",
+  "name": "ng4-custom-spinner",
   "author": {
     "email": "kaustubh.mungale@gmail.com",
     "name": "Kaustubh Mungale",
@@ -13,6 +13,10 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kmungale/ng-spinner.git"
   },
   "dependencies": {
     "@angular/animations": "^6.0.3",
