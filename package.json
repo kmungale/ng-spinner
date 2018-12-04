@@ -1,6 +1,11 @@
 {
   "name": "ng-spinner",
-  "version": "0.0.0",
+  "author": {
+    "email": "kaustubh.mungale@gmail.com",
+    "name": "Kaustubh",
+    "url": "https://github.com/kmungale/ng-spinner"
+  },
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
